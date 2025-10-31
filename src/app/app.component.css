@@ -1,0 +1,43 @@
+.form-container {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 32px 26px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.07);
+  position: relative;
+}
+.error small {
+  color: #d9534f;
+  font-size: 0.95em;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+.modal-content {
+  background: #fff;
+  border-radius: 7px;
+  padding: 22px 30px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.15);
+  text-align: center;
+  min-width: 320px;
+}
+.modal-content h2 {
+  margin-bottom: 14px;
+}
+.modal-btn {
+  margin-top: 18px;
+  background: #222;
+  color: #fff;
+  padding: 9px 21px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
