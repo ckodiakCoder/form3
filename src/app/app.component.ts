@@ -38,8 +38,8 @@ export class AppComponent {
 
   minDate: Date;
   maxDate: Date;
-
   countries: any[];
+
   heightestQualifications = [
     { name: 'Master Degree', value: 'master' },
     { name: 'Bachelor Degree', value: 'bachelor' },
@@ -127,3 +127,4 @@ export class AppComponent {
     this.showThankYou = false;
   }
 }
+s
